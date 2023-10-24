@@ -1,6 +1,91 @@
-<!DOCTYPE html>
-<html>
-<head>
+<meta content="target-densitydpi=160dpi, initial-scale=0, width=device-width, minimum-scale=1, maximum-scale=1" name="viewport">
 
-<\head>
-<\html>
+<body>
+  <section class="container-fluid section-padding-100-0 section-padding-0-100">
+    <div class="game-section spad wow fadeInUp">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-4">
+            <!--Seção Titulo-->
+            <div class=" container-fluid text-center">
+              <img src="https://i.pinimg.com/originals/99/c3/15/99c315e78e9260939595042394158eb0.png"></i>
+              <div class="line"></div>
+              <h2>Memoria Camperito</h2>
+              <p>preparate para la aventura de ejercitar tu mente</p>
+
+            </div>
+          </div>
+          <br>
+          <!-- Jogo da Memória -->
+          <div class="col-8">
+            <section class="memory-game">
+              <div class="memory-card" data-framework="donut">
+                <!--Card 1-->
+                <img class="front-face" src="https://mascampero.com/wp-content/uploads/2022/06/Papas-medianas-300x300.png" alt="Donut" />
+                <img class="back-face" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrh3vWpwyKN3NLLIAiwddIh73YrPCSkZDqETPdbMd857As8dwvVMmUccbwapwRk65u3GA&usqp=CAU" alt="Play" />
+              </div>
+
+              <div class="memory-card" data-framework="donut">
+                <img class="front-face" src="https://mascampero.com/wp-content/uploads/2022/06/Papas-medianas-300x300.png" alt="" />
+                <img class="back-face" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrh3vWpwyKN3NLLIAiwddIh73YrPCSkZDqETPdbMd857As8dwvVMmUccbwapwRk65u3GA&usqp=CAU" alt="Play" />
+              </div>
+
+              <div class="memory-card" data-framework="pizza">
+                <!--Card 2-->
+                <img class="front-face" src="https://www.aaprevista.com/images/HeladoBatidoMangoTajin.png" alt="Pizza" />
+                <img class="back-face" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrh3vWpwyKN3NLLIAiwddIh73YrPCSkZDqETPdbMd857As8dwvVMmUccbwapwRk65u3GA&usqp=CAU" alt="Play" />
+              </div>
+              <div class="memory-card" data-framework="pizza">
+                <img class="front-face" src="https://www.aaprevista.com/images/HeladoBatidoMangoTajin.png" alt="Pizza" />
+                <img class="back-face" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrh3vWpwyKN3NLLIAiwddIh73YrPCSkZDqETPdbMd857As8dwvVMmUccbwapwRk65u3GA&usqp=CAU" alt="Play" />
+              </div>
+
+              <div class="memory-card" data-framework="dog">
+                <!--Card 3-->
+                <img class="front-face" src="https://images.getduna.com/459d4aa3-c028-42ec-8b1a-a2be7b2d3c1b/CP-416x417-Loncherita.jpg?d=400x400&format=webp" alt="Dog" />
+                <img class="back-face" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrh3vWpwyKN3NLLIAiwddIh73YrPCSkZDqETPdbMd857As8dwvVMmUccbwapwRk65u3GA&usqp=CAU" alt="Play" />
+              </div>
+              <div class="memory-card" data-framework="dog">
+                <img class="front-face" src="https://images.getduna.com/459d4aa3-c028-42ec-8b1a-a2be7b2d3c1b/CP-416x417-Loncherita.jpg?d=400x400&format=webp" alt="Dog" />
+                <img class="back-face" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrh3vWpwyKN3NLLIAiwddIh73YrPCSkZDqETPdbMd857As8dwvVMmUccbwapwRk65u3GA&usqp=CAU" alt="Play" />
+              </div>
+
+              <div class="memory-card" data-framework="queijo">
+                <!--Card 4-->
+                <img class="front-face" src="https://albamar.com.gt/cdn/shop/files/alitas-para-web_02_530x@2x.jpg?v=1686853327" alt="Queijo" />
+                <img class="back-face" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrh3vWpwyKN3NLLIAiwddIh73YrPCSkZDqETPdbMd857As8dwvVMmUccbwapwRk65u3GA&usqp=CAU" alt="Play" />
+              </div>
+              <div class="memory-card" data-framework="queijo">
+                <img class="front-face" src="https://albamar.com.gt/cdn/shop/files/alitas-para-web_02_530x@2x.jpg?v=1686853327" alt="Queijo" />
+                <img class="back-face" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrh3vWpwyKN3NLLIAiwddIh73YrPCSkZDqETPdbMd857As8dwvVMmUccbwapwRk65u3GA&usqp=CAU" alt="Play" />
+              </div>
+
+              <div class="memory-card" data-framework="elefante">
+                <!--Card 5-->
+                <img class="front-face" src="https://pc-gt-cdn.s3.amazonaws.com/menu-images/prod-a/39e7dbb1-f7d4-444c-a6d5-a30c47fa6494.png" alt="Elefante" />
+                <img class="back-face" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrh3vWpwyKN3NLLIAiwddIh73YrPCSkZDqETPdbMd857As8dwvVMmUccbwapwRk65u3GA&usqp=CAU" alt="Play" />
+              </div>
+              <div class="memory-card" data-framework="elefante">
+                <img class="front-face" src="https://pc-gt-cdn.s3.amazonaws.com/menu-images/prod-a/39e7dbb1-f7d4-444c-a6d5-a30c47fa6494.png" alt="Elefante" />
+                <img class="back-face" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrh3vWpwyKN3NLLIAiwddIh73YrPCSkZDqETPdbMd857As8dwvVMmUccbwapwRk65u3GA&usqp=CAU" alt="Play" />
+              </div>
+
+              <div class="memory-card" data-framework="Cat">
+                <!--Card 6-->
+                <img class="front-face" src="https://chalosgrocery.com/assets/uploads/7930858f26f3d7483e332bf85d37facc.jpg" alt="Cat" />
+                <img class="back-face" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrh3vWpwyKN3NLLIAiwddIh73YrPCSkZDqETPdbMd857As8dwvVMmUccbwapwRk65u3GA&usqp=CAU" alt="Play" />
+              </div>
+              <div class="memory-card" data-framework="Cat">
+                <img class="front-face" src="https://chalosgrocery.com/assets/uploads/7930858f26f3d7483e332bf85d37facc.jpg" alt="Cat" />
+                <img class="back-face" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrh3vWpwyKN3NLLIAiwddIh73YrPCSkZDqETPdbMd857As8dwvVMmUccbwapwRk65u3GA&usqp=CAU" alt="Play" />
+              </div>
+            </section>
+            <!-- Jogo da Memória -->
+          </div>
+        </div>
+        <!-- Seção Game End -->
+          <p>4to Bach Christian Sologaistoa</p>
+
+        <p>5to Bach Brithany Rodas</p>
+  </section>
+</body>
